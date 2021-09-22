@@ -6,7 +6,7 @@
 
     /* Colors */
     /* favorie color */
-    --hue-color: 260;
+    --hue-color: 260; /* Purple 250 - Green 142 - Blue 230 - Pink 340 */
 
     /* HSL Color */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -339,3 +339,5 @@ img {
     display: inline-flex;
     align-items: center;
 }
+
+/* ============== ABOUT ============== */
