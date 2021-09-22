@@ -37,5 +37,68 @@
     --font-semi-bold: 600;
 
     /*====== Margins =======*/
-    
+    --mb-0-25: .25rem;
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
+
+    /*====== Z-index =======*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+
 }
+    
+/* Font size for Larde devices */
+@media screen and (min-width: 968px) {
+    :root {
+        --big-font-size: 3rem;
+        --h1-font-size: 2.25rem;
+        --h2-font-size: 1.5rem;
+        --h3-font-size: 1.25rem;
+        --normal-font-size: 1rem: 
+        --small-font-size: .875rem;
+        --smaller-font-size: .813rem;
+    }
+}
+
+/* ========== Variables Dark Theme =========== */
+
+/* ========== Button Dark/light =========== */
+
+/* ========== BASE =========== */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 0 var(--header-height) 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+
+h1,h2,h3,h4 {
+    color: var(--title-color);
+}
+
+/* ========== Reusable CSS Classes =========== */
+
+/* ========== LAYOUT =========== */
+
+/* ========== NAVIGATION =========== */
+
+/* show menu */
+
+/* Active Link */
