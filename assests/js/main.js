@@ -3,7 +3,7 @@ const navMenu = document.getElementById('nav-menu');
 const navToggle = document.getElementById('nav-toggle');
 const navClose = document.getElementById('nav-close');
 
-/**====== SHOW MENU ========*/
+/**=============== SHOW MENU ===================*/
 // Validate if constant exists
 if (navToggle) {
     navToggle.addEventListener('click', () => {
@@ -11,7 +11,7 @@ if (navToggle) {
     });
 };
 
-/**============ HIDE MENU ============*/
+/**================= HIDE MENU ================*/
 /** validate if constant exists */
 if(navClose) {
     navClose.addEventListener('click', () => {
@@ -19,7 +19,7 @@ if(navClose) {
     });
 };
 
-/* ======== REMOVE MENU MOBILE ======== */
+/* =============== REMOVE MENU MOBILE ================ */
 const navLink = document.querySelectorAll('.nav__link')
 
 function linkAction() {
@@ -33,8 +33,8 @@ for (link of navLink) {
     link.addEventListener('click', linkAction);
 };
 
-/** ============ ACCORDIAN SKILLS */
-const skills = document.getElementsByClassName('skills__content');
+/** ================ ACCORDIAN SKILLS ==================*/
+const skillsContent = document.getElementsByClassName('skills__content');
 const skillsHeader = document.querySelectorAll('.skills__header')
 
 function toggleSkills () {
