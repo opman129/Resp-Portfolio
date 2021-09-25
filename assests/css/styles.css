@@ -6,7 +6,7 @@
 
     /* Colors */
     /* favorie color */
-    --hue-color: 265; /* Purple 250 - Green 142 - Blue 230 - Pink 340 */
+    --hue-color: 250; /* Purple 250 - Green 142 - Blue 230 - Pink 340 */
 
     /* HSL Color */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -327,6 +327,16 @@ img {
 
 .button:hover { 
     background-color: var(--first-color-alt);
+}
+
+.button--white {
+    background-color: #fff;
+    color: var(--first-color);
+}
+
+.button--white:hover {
+    background-color: #fff;
+    color: var(--first-color);
 }
 
 .button__icon {
@@ -715,3 +725,5 @@ img {
     width: 232px;
     justify-self: center;
 }
+
+
