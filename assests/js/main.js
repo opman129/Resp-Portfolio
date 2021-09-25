@@ -83,16 +83,16 @@ let modal = function(modalClick) {
 
 modalBtns.forEach((modalBtn, i) => {
     modalBtn.addEventListener('click', () => {
-        modal(i)
-    })
+        modal(i);
+    });
 });
 
 modalCloses.forEach((modalClose) => {
     modalClose.addEventListener('click', () => {
         modalViews.forEach((modalView) => {
             modalView.classList.remove('active-modal')
-        })
-    })
-})
+        });
+    });
+});
 
 
