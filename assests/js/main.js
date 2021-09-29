@@ -127,8 +127,6 @@ let swiperTestimonial = new Swiper(".testimonial__container", {
       clickable: true,
       dynamicBullets: true,
     },
-    mousewheel: true,
-    keyboard: true,
 
     breakpoints: {
         568: {
