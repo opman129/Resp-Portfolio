@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
-/* Variables : CSS */
+/*=================== VARIABLES : CSS ===================== */
 :root {
     --header-height: 3rem;
 
@@ -8,7 +8,7 @@
     /* favorie color */
     --hue-color: 250; /* Purple 250 - Green 142 - Blue 230 - Pink 340 */
 
-    /* HSL Color */
+    /* =============== HSL Color Mode ================== */
     --first-color: hsl(var(--hue-color), 69%, 61%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
@@ -20,7 +20,7 @@
     --body-color: hsl(var(--hue-color), 60%, 99%);
     --container-color: #FFF;
 
-    /* ======== Fonts & Typography ======== */
+    /* ================ Fonts & Typography ============= */
     --body-font: 'Poppins', sans-serif;
 
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px 2rem = 32px*/
@@ -66,9 +66,33 @@
     }
 }
 
-/* ========== Variables Dark Theme =========== */
+/* ============== Variables Dark Theme =========== */
+body.dark-theme {
+    /* HSL Color */
+    --first-color-second: hsl(var(--hue-color), 30%, 8%);
+    --title-color: hsl(var(--hue-color), 8%, 95%);
+    --text-color: hsl(var(--hue-color), 8%, 75%);
+    --input-color: hsl(var(--hue-color), 29%, 16%);
+    --body-color: hsl(var(--hue-color), 28%, 12%);
+    --container-color: hsl(var(--hue-color), 29%, 16%);
+}
 
 /* ========== Button Dark/light =========== */
+.nav__btns {
+    display: flex;
+    align-items: center;
+}
+
+.change-theme {
+    font-size: 1.25rem;
+    color: var(--title-color);
+    margin-right: var(--mb-1);
+    cursor: pointer;
+}
+
+.change-theme:hover {
+    color: var(--first-color);
+}
 
 /* ========== BASE =========== */
 *{
