@@ -1223,15 +1223,28 @@ img {
         padding-top: .8rem;
     }
 
-    /* .footer__container {
-        grid-template-columns: repeat(3, 1fr);
-    }
     .footer__bg {
         padding: 3rem 0 3.5rem;
     }
-    .footer__links {
-        flex-direction: row;
-        column-gap: 2rem;
-    }
-    .footer__socials{} */
 } 
+
+/* For Large Devices */
+@media screen and (min-width: 1024px) {
+    .header,
+    .main,
+    .footer__container {
+        padding: 0;
+    }
+
+    .home__blob {
+        width: 320px;
+    }
+
+    .home__social {
+        transform: translateX(-6rem);
+    }
+
+    .services__container {
+        grid-template-columns: repeat(2, 348px);
+    }
+}
